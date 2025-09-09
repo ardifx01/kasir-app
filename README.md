@@ -36,24 +36,21 @@ cd kasir-app-laravel
 
 2. Instalasi Dependensi
 Bash
-
 composer install
 npm install
+
 3. Konfigurasi Database
 Buat file .env dari .env.example dan atur kredensial database MySQL Anda.
-
 Bash
-
 cp .env.example .env
+
 4. Migrasi Database
 Jalankan migrasi untuk membuat tabel yang diperlukan.
-
 Bash
-
 php artisan migrate
+
 5. Jalankan Server
 Buka dua terminal terpisah dan jalankan perintah berikut:
-
 Bash
 
 # Terminal 1: Untuk server backend
@@ -67,4 +64,4 @@ Aplikasi kini dapat diakses di http://127.0.0.1:8000.
 🤝 Kontributor
 BekaGensss
 
-(Tambahkan nama Anda atau tim Anda di sini.)
+(Bara Kusuma.)

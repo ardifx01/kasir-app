@@ -1,90 +1,29 @@
-Kasir App Laravel
-Aplikasi kasir (Point of Sale) modern berbasis web yang dibangun menggunakan Laravel 10 dan Tailwind CSS. Aplikasi ini dirancang untuk membantu pengelolaan produk dan transaksi penjualan harian.
+# 🚀 Kasir App: Modern POS System
 
-(Anda bisa mengganti link di atas dengan tangkapan layar dari aplikasi Anda.)
+**Kasir App** adalah sebuah aplikasi Point of Sale (POS) berbasis web yang dirancang untuk memberikan pengalaman kasir yang modern, efisien, dan mulus. Dibangun dengan fondasi **Laravel 10** yang solid dan antarmuka **Tailwind CSS** yang elegan, aplikasi ini siap membantu bisnis dalam mengelola penjualan dan inventaris dengan akurat.
 
-Fitur Utama
-Manajemen Produk (CRUD): Tambah, edit, hapus, dan lihat daftar produk dengan detail stok dan harga.
+Tujuan utama dari proyek ini adalah untuk menunjukkan bagaimana teknologi modern dapat disatukan untuk menciptakan solusi bisnis yang kuat dan mudah digunakan.
 
-Sistem Kasir Interaktif: Antarmuka kasir yang responsif untuk mencari produk, menambahkan ke keranjang, dan menyelesaikan transaksi.
+## ✨ Fitur Unggulan
 
-Pembayaran Fleksibel: Mendukung pembayaran tunai dengan perhitungan kembalian otomatis dan simulasi pembayaran digital.
+-   **Antarmuka Kasir Interaktif:** Pengalaman kasir yang *real-time* dan responsif untuk pencarian produk, manajemen keranjang, dan penyelesaian transaksi.
+-   **Alur Pembayaran Lengkap:** Mendukung pembayaran tunai dengan perhitungan kembalian otomatis, serta pembayaran non-tunai melalui simulasi bank dan QRIS.
+-   **Laporan Penjualan Visual:** Dashboard yang informatif menampilkan total pendapatan, jumlah transaksi, dan produk terlaris dengan data yang difilter berdasarkan tanggal dan disajikan dalam bentuk grafik.
+-   **Manajemen Produk Komprehensif:** Kontrol penuh atas data produk dengan fitur **CRUD** (Create, Read, Update, Delete) yang efisien.
+-   **Manajemen Pengguna Fleksibel:** Sistem autentikasi pengguna dengan peran (`admin` dan `kasir`) untuk membedakan hak akses dan menjaga keamanan data.
+-   **Tampilan Responsif:** Desain yang disesuaikan untuk desktop dan mobile, dengan *navbar* yang elegan dan menu *hamburger* yang intuitif.
 
-Laporan Penjualan: Dashboard yang menampilkan ringkasan penjualan, total pendapatan, dan produk terlaris.
+## ⚙️ Teknologi yang Digunakan
 
-Riwayat Transaksi: Catatan lengkap dari semua transaksi yang telah terjadi.
+-   **Backend:** PHP 8.1+, Laravel 10, MySQL
+-   **Frontend:** Tailwind CSS, JavaScript (Vanilla JS), Vite
+-   **Library:** Maatwebsite/Excel (untuk ekspor laporan), Chart.js (untuk visualisasi data), Toastify.js (untuk notifikasi).
 
-Autentikasi & Otorisasi: Sistem login dengan peran pengguna (admin dan kasir) untuk mengelola hak akses.
+## 🚀 Cara Menjalankan Proyek Secara Lokal
 
-Responsif Penuh: Tampilan aplikasi yang rapi dan optimal di desktop maupun perangkat mobile.
+Ikuti langkah-langkah di bawah ini untuk memulai proyek di lingkungan lokal Anda.
 
-Teknologi yang Digunakan
-Backend: PHP 8.1+, Laravel 10, MySQL
-
-Frontend: HTML, Tailwind CSS, JavaScript (Vanilla JS), Vite
-
-Library Tambahan: Toastify.js, Chart.js, maatwebsite/excel
-
-Cara Menjalankan Proyek Secara Lokal
-Ikuti langkah-langkah di bawah ini untuk menjalankan aplikasi di komputer Anda.
-
-Persyaratan
-PHP 8.1 atau lebih tinggi
-
-Composer
-
-Node.js & npm
-
-MySQL
-
-Langkah-langkah
-Clone Proyek:
-
-Bash
-
-git clone https://github.com/BekaGensss/kasir-app-laravel.git
+### 1. Klon Repositori
+```bash
+git clone [https://github.com/BekaGensss/kasir-app-laravel.git](https://github.com/BekaGensss/kasir-app-laravel.git)
 cd kasir-app-laravel
-Instal Dependensi:
-
-Bash
-
-composer install
-npm install
-Konfigurasi Environment:
-
-Bash
-
-cp .env.example .env
-Atur konfigurasi database di file .env.
-
-Jalankan Migrasi Database:
-
-Bash
-
-php artisan migrate
-Jalankan Server:
-Buka dua terminal terpisah.
-
-Bash
-
-# Terminal 1: untuk backend
-php artisan serve
-Bash
-
-# Terminal 2: untuk frontend
-npm run dev
-Akses aplikasi di browser Anda: http://127.0.0.1:8000.
-
-Kontributor
-BekaGensss
-
-Bara Kusuma.
-
-
-Sumber dan konten terkait
-
-
-
-
-
-
